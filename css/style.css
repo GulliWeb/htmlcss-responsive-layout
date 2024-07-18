@@ -1,0 +1,98 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body{
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    background-color: lightgray;
+}
+
+/* Utils */
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.primary-yellow{
+    color: rgb(241, 155, 60);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+/* Header */
+.title{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed black;
+}
+
+#header-bottom .row{
+    min-height: 100px;
+    border: 2px dashed black;
+}
+
+#header-bottom .col{
+    flex-basis: 50%;
+    border: 2px dashed black;
+}
+
+p{
+    display: inline-block;
+}
+
+.col.left h2{
+    margin-top: 5px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.col.left h4{
+    color: gray;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.col.right{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.col.right p{
+    font-weight: bold;
+}
+
+.col.right i{
+    color: rgb(241, 155, 60);
+}
+
+.col.right button{
+    background-color: rgb(241, 155, 60);
+    color: white;
+    border-radius: 30%;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.col.bottom{
+    border: 2px dashed black;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+iframe{
+    width: 100%;
+    height: 150px;
+}
+
