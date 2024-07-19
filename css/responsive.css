@@ -1,0 +1,56 @@
+/* Responsive Tablet version ( >= 768px ) */
+@media screen and (min-width: 768px) {
+    /* Title aligned left */
+    header .title-container{
+        max-width: 700px;
+        margin: 0 20px;
+        justify-content: start;
+    }
+
+    /* Increased padding main content */
+    .main-wrapper{
+        padding: 30px;
+    }
+
+    /* Displayed & increased title  */
+    .hidden{
+        display: inline;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    /* Recipe displayed grid */
+    .info-bottom ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info-bottom ul li{
+        flex-basis: calc(100% / 3);
+    }
+
+    /* Increased button width */
+
+    .btn-social{
+        max-width: 100%;
+    }
+
+    .btn-social button{
+        width: 100px;
+        border-radius: 40%;
+    }
+
+    /* Displayed ads */
+    .ads{
+        margin-top: 30px;
+    }
+
+    .banner{
+        display: block;
+        height: 50px;
+        width: 100%;
+    }
+
+}
