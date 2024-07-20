@@ -71,5 +71,23 @@
     margin-bottom: 20px;
 }
 
+/* Button larger with social names */
+.btn-social button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+
+}
+
+@media screen and (max-width: 991px) {
+     .hidden.btn{
+        display: none;
+     }
+
 }
 
