@@ -1,18 +1,18 @@
 /* Responsive Tablet version ( >= 768px ) */
 @media screen and (min-width: 768px) {
-    /* Title aligned left */
+    /* Title aligne left */
     header .title-container{
         max-width: 700px;
         margin: 0 20px;
         justify-content: start;
     }
 
-    /* Increased padding main content */
+    /* Increase padding main content */
     .main-wrapper{
         padding: 30px;
     }
 
-    /* Displayed & increased title  */
+    /* Display & increase title  */
     .hidden{
         display: inline;
     }
@@ -21,7 +21,7 @@
         font-size: 20px;
     }
 
-    /* Recipe displayed grid */
+    /* Recipe display grid */
     .info-bottom ul{
         display: flex;
         flex-wrap: wrap;
@@ -31,7 +31,7 @@
         flex-basis: calc(100% / 3);
     }
 
-    /* Increased button width */
+    /* Increase button width */
 
     .btn-social{
         max-width: 100%;
@@ -71,7 +71,7 @@
     margin-bottom: 20px;
 }
 
-/* Button larger with social names */
+/* Increase button width & added social names */
 .btn-social button{
     display: flex;
     justify-content: center;
