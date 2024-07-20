@@ -52,5 +52,24 @@
         height: 50px;
         width: 100%;
     }
+}
+
+/* Responsive Desktop version ( >= 992px ) */
+@media screen and (min-width: 992px) {
+/* increased title) */
+.title{
+    font-size: 30px;
+}
+
+ /* Recipe displayed standard */
+ .info-bottom ul{
+    display: block;
+}
+/* Recipe card displayed in the same line */
+.recipe-card{
+    display: flex;
+    margin-bottom: 20px;
+}
 
 }
+
