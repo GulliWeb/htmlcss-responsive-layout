@@ -67,6 +67,7 @@ header h1{
 
 /* Main */
 .main-wrapper{
+    height: 100vh;
     max-width: 100%;
     margin: 0 auto;
     padding: 15px;
@@ -165,17 +166,17 @@ iframe{
 }
 
 /* Info bottom */
-ul{
+.info-bottom ul{
     padding-bottom: 30px;
 }
 
-ul li{
+.info-bottom ul li{
     list-style: none;
     font-size: 14px;
     margin-top: 5px;
 }
 
-li span{
+.info-bottom li span{
     font-weight: bold;
 }
 
@@ -199,6 +200,60 @@ li span{
     display: none;
 }
 
+/* Presentation */
+#presentation{
+    margin-top: 20px;
+}
 
+.presentation-title h2{
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 2px solid  orange ;
+    border-right-width: 10pc;
+}
 
+.presentation-content{
+    margin-top: 20px;
+}
+
+.img-card{
+    max-width: 250px;
+    float: left;
+}
+
+/* Footer */
+.footer-content{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+
+    padding: 10px 10px;
+    background-color: mediumpurple;
+    font-size: 13px;
+}
+
+.footer-content .left{
+    flex-basis: 50%;
+}
+
+.footer-content .right ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.footer-content .right ul li{
+    color: white;
+    text-decoration: underline;
+    margin-right: 10px;
+    align-items: center;
+
+}
+
+.left p{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 

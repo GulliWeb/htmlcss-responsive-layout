@@ -81,6 +81,12 @@
     border-radius: 15px;
 }
 
+/* Footer list disposition inverse */
+.footer-content{
+    flex-direction: row-reverse;
+}
+
+
 
 }
 
@@ -88,6 +94,5 @@
      .hidden.btn{
         display: none;
      }
-
 }
 
