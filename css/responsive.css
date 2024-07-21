@@ -52,6 +52,11 @@
         height: 50px;
         width: 100%;
     }
+
+    /* Footer contents position center */
+    .footer-content .footer-col{
+        justify-content: center;
+    }
 }
 
 /* Responsive Desktop version ( >= 992px ) */
@@ -96,3 +101,9 @@
      }
 }
 
+/* Mobile footer center */
+@media screen and (max-width: 767px) {
+    .footer-col.flex{
+        justify-content: center;
+    }
+}
